@@ -1,0 +1,29 @@
+{
+  "name": "react-native-gateway",
+  "version": "1.0.0",
+  "description": "Render React element into new context",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/headfire94/react-native-gateway.git"
+  },
+  "keywords": [
+    "react",
+    "portal",
+    "gateway",
+    "modal",
+    "dialog",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "author": "Egor Vodopyanov egorvodopyanov@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/headfire94/react-native-gateway/issues"
+  },
+  "homepage": "https://github.com/headfire94/react-native-gateway#readme"
+}
