@@ -1,7 +1,7 @@
 {
   "name": "react-native-gateway",
   "version": "1.0.0",
-  "description": "Render React element into new context",
+  "description": "Render React-Native component into new context",
   "main": "lib/index.js",
   "scripts": {
     "test": "yarn lint && yarn unit",
