@@ -39,11 +39,13 @@
     "babel-preset-react-native": "^4.0.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0",
     "eslint": "^6.2.2",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
     "jest": "^24.9.0",
+    "jsdom": "^15.1.1",
     "prettier": "^1.18.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -56,13 +58,17 @@
       "./tests/setup.js"
     ],
     "moduleFileExtensions": [
-      "js"
+      "js",
+      "json"
     ],
     "transform": {
       "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
     },
     "testMatch": [
       "**/*.test.js"
+    ],
+    "snapshotSerializers": [
+      "./node_modules/enzyme-to-json/serializer"
     ]
   }
 }

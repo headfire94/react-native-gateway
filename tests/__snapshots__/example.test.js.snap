@@ -1,13 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`mounts correctly 1`] = `ShallowWrapper {}`;
+exports[`PortalExit contains ToPort component 1`] = `
+<ToPort>
+  <View
+    test-name="to-port"
+  >
+    <View
+      test-name="to-port"
+    />
+  </View>
+</ToPort>
+`;
 
-exports[`renders correctly 1`] = `
-<View
-  style={
-    Object {
-      "backgroundColor": "red",
-    }
-  }
-/>
+exports[`mounts correctly 1`] = `
+<PortalProvider>
+  <View
+    test-name="top"
+  >
+    <View
+      test-name="top"
+    >
+      <PortalEnter
+        name="example"
+      />
+    </View>
+  </View>
+  <PortalExit>
+    <ToPort>
+      <View
+        test-name="to-port"
+      >
+        <View
+          test-name="to-port"
+        />
+      </View>
+    </ToPort>
+  </PortalExit>
+</PortalProvider>
 `;
