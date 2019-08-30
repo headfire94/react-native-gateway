@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/headfire94/react-native-gateway/issues"
   },
-  "homepage": "https://github.com/headfire94/react-native-gateway#readme"
+  "homepage": "https://github.com/headfire94/react-native-gateway#readme",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": "^0.59.2"
+  }
 }
